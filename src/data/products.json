@@ -1,0 +1,498 @@
+[
+  {
+    "id": "nageena-sukoon-oil",
+    "slug": "nageena-sukoon-oil",
+    "categoryId": "massage-oils",
+    "name": {
+      "en": "Nageena Sukoon Oil",
+      "hi": "नगीना सुकून तेल"
+    },
+    "subtitle": {
+      "en": "Ayurvedic Medicinal Massage Oil",
+      "hi": "आयुर्वेदिक औषधीय मालिश तेल"
+    },
+    "tagline": {
+      "en": "Dard Se Sukoon Tak Ka Safar",
+      "hi": "दर्द से सुकून तक का सफर"
+    },
+    "description": {
+      "en": "Authentic Nageena Sukoon Oil is a trusted Ayurvedic medicinal massage oil manufactured by Nageena Ayurvedic Pharmacy in Bhiwandi since 1993. Formulated with potent botanical herbs including clove, cinnamon, tulsi, and amla, it provides deep warming relief from body aches, backache, joint stiffness, and muscle tiredness.",
+      "hi": "असली नगीना सुकून तेल १९९३ से नगीना आयुर्वेदिक फार्मेसी भिवंडी द्वारा निर्मित भरोसेमंद आयुर्वेदिक औषधीय मालिश तेल है। लौंग, दालचीनी, तुलसी और आंवला जैसी प्राकृतिक जड़ी-बूटियों से बना यह तेल बदन दर्द, कमर दर्द, जोड़ों की जकड़न और मांसपेशियों की थकान में असरदार राहत देता है।"
+    },
+    "detailedDescription": {
+      "en": "Nageena Sukoon Oil has been trusted across generations for fast and enduring muscular comfort. Prepared using classical Ayurvedic processing, this herbal oil penetrates deep into muscle tissues, boosting local circulation and easing physical strain. Safe for daily use, it is particularly suitable for elderly individuals experiencing knee and joint stiffness, as well as hardworking professionals experiencing back and neck fatigue.",
+      "hi": "नगीना सुकून तेल पीढ़ियों से मांसपेशियों और जोड़ों के दर्द से राहत के लिए आजमाया हुआ तेल है। प्राचीन आयुर्वेदिक तर्ज पर पकाए गए इस तेल का नियमित प्रयोग मांसपेशियों में खिंचाव, कमर दर्द, घुटनों की तकलीफ और बदन की अकड़न को दूर करता है। बुजुर्गों और मेहनत-मशक्कत करने वाले लोगों के लिए यह अत्यंत लाभकारी है।"
+    },
+    "images": {
+      "primary": "/images/products/sukoon-oil-bottle.jpg",
+      "showcase": "/images/banners/trio-showcase.png",
+      "ad": "/images/promotions/sukoon-back-relief.jpg",
+      "additional": [
+        "/images/banners/pain-relief-poster.png",
+        "/images/banners/wellness-banner.png"
+      ]
+    },
+    "variants": [
+      {
+        "id": "sukoon-oil-50ml",
+        "packSize": "50 ml",
+        "mrp": 85,
+        "availability": "in-stock"
+      },
+      {
+        "id": "sukoon-oil-100ml",
+        "packSize": "100 ml",
+        "mrp": 160,
+        "availability": "in-stock"
+      },
+      {
+        "id": "sukoon-oil-200ml",
+        "packSize": "200 ml",
+        "mrp": 290,
+        "availability": "in-stock"
+      }
+    ],
+    "ingredients": {
+      "en": [
+        "Amla (Emblica officinalis)",
+        "Clove Oil / Laung (Syzygium aromaticum)",
+        "Cinnamon / Dalchini (Cinnamomum verum)",
+        "Tulsi Extract (Ocimum sanctum)",
+        "Neem Leaf Extract (Azadirachta indica)",
+        "Pudina Satva (Mentha arvensis)",
+        "Gandhapura Tel (Wintergreen)",
+        "Til Tel & Herbal Oil Base"
+      ],
+      "hi": [
+        "आंवला (Emblica officinalis)",
+        "लौंग तेल (Syzygium aromaticum)",
+        "दालचीनी (Cinnamomum verum)",
+        "तुलसी अर्क (Ocimum sanctum)",
+        "नीम पत्र अर्क (Azadirachta indica)",
+        "पुदीना सत्व",
+        "गंधपूरा तेल (विंटरग्रीन)",
+        "तिल तेल एवं हर्बल ऑयल बेस"
+      ]
+    },
+    "directions": {
+      "en": "Take an adequate amount of Nageena Sukoon Oil and gently massage over the affected area in circular motions until absorbed. Best applied warm or followed by a warm compress twice daily.",
+      "hi": "हथेली पर आवश्यकतानुसार नगीना सुकून तेल लें और प्रभावित स्थान पर हल्के हाथों से मालिश करें जब तक कि तेल त्वचा में समा न जाए। दिन में दो बार या सोने से पहले लगाना अत्यंत गुणकारी है।"
+    },
+    "indications": {
+      "en": [
+        "Lower backache (Kamar dard)",
+        "Joint and knee discomfort",
+        "Neck and shoulder stiffness",
+        "Muscular fatigue and strain",
+        "General body aches"
+      ],
+      "hi": [
+        "कमर दर्द व रीढ़ की जकड़न",
+        "घुटनों एवं जोड़ों का दर्द",
+        "गर्दन व कंधों में खिंचाव",
+        "मांसपेशियों की थकान व ऐंठन",
+        "समस्त बदन का दर्द"
+      ]
+    },
+    "featured": true,
+    "searchKeywords": {
+      "en": [
+        "sukoon oil",
+        "nageena sukoon",
+        "ayurvedic massage oil",
+        "pain relief oil",
+        "back pain",
+        "knee pain",
+        "joint pain oil",
+        "malish tel",
+        "50 ml",
+        "100 ml",
+        "200 ml",
+        "85",
+        "160",
+        "290"
+      ],
+      "hi": [
+        "सुकून तेल",
+        "नगीना सुकून तेल",
+        "मालिश तेल",
+        "दर्द निवारक तेल",
+        "कमर दर्द",
+        "घुटनों का दर्द",
+        "जोड़ों का दर्द",
+        "बदन दर्द",
+        "५० मिली",
+        "१०० मिली",
+        "२०० मिली",
+        "८५",
+        "१६०",
+        "२९०"
+      ]
+    },
+    "manufacturer": {
+      "name": "Nageena Ayurvedic Pharmacy",
+      "licenseNo": "Mfg. Lic. No KB. AYU 221",
+      "address": {
+        "en": "181 Attarwala Compound, Near Apsara Talkies, Kalyan Road, Bhiwandi, Thane, Maharashtra - 421302",
+        "hi": "181 अत्तर कम्पाउण्ड, अप्सरा टॉकीज के पास, कल्याण रोड, भिवंडी, ठाणे, महाराष्ट्र - 421302"
+      },
+      "certifications": ["ISO 9001:2018 Certified", "GMP Compliant Processing"]
+    }
+  },
+  {
+    "id": "nageena-onion-hair-oil",
+    "slug": "nageena-onion-hair-oil",
+    "categoryId": "hair-care-oils",
+    "name": {
+      "en": "Nageena Onion Hair Oil",
+      "hi": "नगीना ऑनियन हेयर ऑयल"
+    },
+    "subtitle": {
+      "en": "Blend of 10 Natural Essential Oils with Tea Tree, Black Seeds & Almond",
+      "hi": "१० प्राकृतिक जड़ी-बूटियों, टी ट्री, कलौंजी व बादाम से निर्मित"
+    },
+    "tagline": {
+      "en": "Healthy Roots, Strong Hair",
+      "hi": "जड़ों से मजबूती, बालों को नया जीवन"
+    },
+    "description": {
+      "en": "Nageena Onion Hair Oil is a rich Ayurvedic formulation created with pure red onion seed extracts, black seed (kalonji), tea tree oil, and sweet almond oil. It delivers intensive nourishment to hair follicles, curbs excessive hair fall, reduces stubborn dandruff, and stimulates healthy hair growth.",
+      "hi": "नगीना ऑनियन हेयर ऑयल शुद्ध लाल प्याज के अर्क, कलौंजी (ब्लैक सीड), टी-ट्री और मीठे बादाम के तेल का पौष्टिक संगम है। यह बालों की जड़ों को पोषण देता है, बालों का गिरना रोकता है, डैंड्रफ से राहत दिलाता है और बालों को प्राकृतिक चमक व घनत्व प्रदान करता है।"
+    },
+    "detailedDescription": {
+      "en": "Enriched with sulphur-rich red onion extract and antimicrobial tea tree oil, Nageena Onion Hair Oil strengthens weak hair shafts from root to tip. Regular application purifies the scalp, unclogs hair follicles, and promotes thicker, shinier hair without leaving sticky greasy residue.",
+      "hi": "सल्फर युक्त लाल प्याज के अर्क और एंटी-बैक्टीरियल टी-ट्री तेल से तैयार यह तेल कमजोर बालों को जड़ों से मजबूत बनाता है। इसका नियमित प्रयोग रूसी (डैंड्रफ) को साफ करता है, बालों को समय से पहले सफेद होने से रोकता है और नए स्वस्थ बाल उगाने में सहायता करता है।"
+    },
+    "images": {
+      "primary": "/images/products/onion-hair-oil.jpg",
+      "showcase": "/images/promotions/all-products-lineup.jpg",
+      "additional": [
+        "/images/banners/wellness-banner.png"
+      ]
+    },
+    "variants": [
+      {
+        "id": "onion-hair-oil-200ml",
+        "packSize": "200 ml",
+        "mrp": 350,
+        "availability": "in-stock"
+      }
+    ],
+    "ingredients": {
+      "en": [
+        "Red Onion Seed Oil (Allium cepa)",
+        "Black Seed Oil / Kalonji (Nigella sativa)",
+        "Tea Tree Essential Oil (Melaleuca alternifolia)",
+        "Sweet Almond Oil (Prunus amygdalus dulcis)",
+        "Bhringraj (Eclipta alba)",
+        "Brahmi (Bacopa monnieri)",
+        "Amla Extract (Phyllanthus emblica)",
+        "Jojoba Oil & Pure Sesame Base"
+      ],
+      "hi": [
+        "लाल प्याज अर्क (Allium cepa)",
+        "कलौंजी तेल (Nigella sativa)",
+        "टी ट्री तेल (Melaleuca alternifolia)",
+        "बादाम तेल (Prunus amygdalus dulcis)",
+        "भृंगराज (Eclipta alba)",
+        "ब्राह्मी (Bacopa monnieri)",
+        "आंवला अर्क",
+        "जोजोबा एवं तिल तेल बेस"
+      ]
+    },
+    "directions": {
+      "en": "Apply a small amount to clean scalp and roots. Gently massage with fingertips for 5 minutes. Leave on for at least 1-2 hours or overnight before washing with a mild herbal shampoo.",
+      "hi": "हल्की मात्रा में तेल लेकर उंगलियों के पोरों से सिर की त्वचा व बालों की जड़ों में ५ मिनट तक मालिश करें। धोने से १-२ घंटे पहले या रात भर लगाकर रखें।"
+    },
+    "indications": {
+      "en": [
+        "Excessive hair fall control",
+        "Scalp dandruff and itchiness",
+        "Dry, damaged, and brittle hair",
+        "Hair follicle revitalization"
+      ],
+      "hi": [
+        "बालों का अत्यधिक झड़ना रोकना",
+        "रूसी (डैंड्रफ) और सिर की खुजली",
+        "कमजोर और बेजान बाल",
+        "बालों की जड़ों का पोषण"
+      ]
+    },
+    "featured": true,
+    "searchKeywords": {
+      "en": [
+        "onion hair oil",
+        "nageena onion oil",
+        "hair fall control",
+        "anti dandruff oil",
+        "black seed oil",
+        "kalonji tel",
+        "tea tree hair oil",
+        "200 ml",
+        "350",
+        "balon ka tel"
+      ],
+      "hi": [
+        "ऑनियन हेयर ऑयल",
+        "नगीना प्याज का तेल",
+        "बालों का झड़ना",
+        "डैंड्रफ का तेल",
+        "कलौंजी तेल",
+        "टी ट्री हेयर ऑयल",
+        "२०० मिली",
+        "३५०",
+        "बालों का तेल"
+      ]
+    },
+    "manufacturer": {
+      "name": "Nageena Ayurvedic Pharmacy",
+      "licenseNo": "Mfg. Lic. No KB. AYU 221",
+      "address": {
+        "en": "181 Attarwala Compound, Near Apsara Talkies, Kalyan Road, Bhiwandi, Thane, Maharashtra - 421302",
+        "hi": "181 अत्तर कम्पाउण्ड, अप्सरा टॉकीज के पास, कल्याण रोड, भिवंडी, ठाणे, महाराष्ट्र - 421302"
+      },
+      "certifications": ["ISO 9001:2018 Certified"]
+    }
+  },
+  {
+    "id": "nageena-rehnuma-kesh-tel",
+    "slug": "nageena-rehnuma-kesh-tel",
+    "categoryId": "mind-soothing-oils",
+    "name": {
+      "en": "Nageena Rehnuma Kesh Tel",
+      "hi": "नगीना रहनुमा केश तेल"
+    },
+    "subtitle": {
+      "en": "13 Authentic Herbs Cooling Tel for Mind Freshness & Hair Care",
+      "hi": "१३ असली जड़ी-बूटियों से बना, दिमाग को सुकून और ताजगी देने वाला"
+    },
+    "tagline": {
+      "en": "Dimag Ko Sukoon Aur Taazgi De",
+      "hi": "दिमाग को सुकून और ताजगी दे - दिमागी काम करने वालों के लिए बेहतर"
+    },
+    "description": {
+      "en": "Manufactured since 1993, Nageena Rehnuma Kesh Tel is an authentic Ayurvedic cooling hair oil formulated with 13 hand-selected medicinal herbs. Celebrated for its mind-calming and soothing properties, it relieves mental fatigue, eases head heaviness, and keeps the scalp refreshed throughout the day.",
+      "hi": "१९९३ से लगातार निर्मित, नगीना रहनुमा केश तेल १३ असली जड़ी-बूटियों से तैयार पारंपरिक ठंडा तेल है। यह मानसिक तनाव को दूर कर दिमाग को तरोताजा करता है, सिर के भारीपन में राहत देता है और बालों को प्राकृतिक पोषण प्रदान करता है।"
+    },
+    "detailedDescription": {
+      "en": "Rehnuma Kesh Tel is specially recommended for individuals engaged in continuous mental work, study, or screen time. The cooling infusion of Brahmi, Amla, Bhringraj, Shikakai, and Reetha helps relax cerebral tension, fosters deep soothing calm, and prevents premature scalp dryness.",
+      "hi": "रहनुमा केश तेल विशेष रूप से विद्यार्थियों, शिक्षकों, विचारकों और मानसिक परिश्रम करने वाले लोगों के लिए अत्यंत उपयोगी है। ब्राह्मी, आंवला, भृंगराज, शिकाकाई और रीठा का शीतल मिश्रण सिर की गरमी को शांत कर ताजगी और शांति प्रदान करता है।"
+    },
+    "images": {
+      "primary": "/images/products/rehnuma-kesh-tel.jpg",
+      "showcase": "/images/promotions/rehnuma-detail.jpg",
+      "ad": "/images/banners/wellness-banner.png",
+      "additional": [
+        "/images/promotions/all-products-lineup.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "id": "rehnuma-kesh-tel-100ml",
+        "packSize": "100 ml",
+        "mrp": 110,
+        "availability": "in-stock"
+      },
+      {
+        "id": "rehnuma-kesh-tel-200ml",
+        "packSize": "200 ml",
+        "mrp": 220,
+        "availability": "in-stock"
+      }
+    ],
+    "ingredients": {
+      "en": [
+        "Brahmi (Bacopa monnieri)",
+        "Bhringraj (Eclipta alba)",
+        "Amla (Phyllanthus emblica)",
+        "Shikakai (Acacia concinna)",
+        "Reetha (Sapindus mukorossi)",
+        "Hibiscus / Gudhal (Hibiscus rosa-sinensis)",
+        "Rosemary Essential Extract",
+        "Kapoor / Camphor (Cinnamomum camphora)",
+        "Mentha / Pudina Satva",
+        "Pure Herbal Cooling Oil Base"
+      ],
+      "hi": [
+        "ब्राह्मी (Bacopa monnieri)",
+        "भृंगराज (Eclipta alba)",
+        "आंवला (Phyllanthus emblica)",
+        "शिकाकाई (Acacia concinna)",
+        "रीठा (Sapindus mukorossi)",
+        "गुड़हल पुष्प अर्क",
+        "रोज़मेरी अर्क",
+        "कपूर (Cinnamomum camphora)",
+        "पुदीना सत्व",
+        "शुद्ध शीतल हर्बल ऑयल बेस"
+      ]
+    },
+    "directions": {
+      "en": "Gently massage into the scalp for 5-10 minutes with fingertip pads before bedtime or after a long day of mental work to experience revitalizing cooling calm.",
+      "hi": "सोने से पूर्व या दिनभर के दिमागी काम के बाद सिर पर ५ से १० मिनट तक हल्के हाथों से मालिश करें जिससे दिमाग को शांति व ताजगी मिले।"
+    },
+    "indications": {
+      "en": [
+        "Mental exhaustion and stress relief",
+        "Head heaviness and fatigue",
+        "Scalp cooling and soothing",
+        "Restful comfort and calm"
+      ],
+      "hi": [
+        "दिमागी थकान और तनाव मुक्ति",
+        "सिर का भारीपन व गरमी",
+        "शीतलता व ताजगी",
+        "शांतिदायक आराम"
+      ]
+    },
+    "featured": true,
+    "searchKeywords": {
+      "en": [
+        "rehnuma kesh tel",
+        "nageena rehnuma",
+        "cooling hair oil",
+        "mind relaxing oil",
+        "thanda tel",
+        "13 herbs oil",
+        "brahmi hair oil",
+        "100 ml",
+        "200 ml",
+        "110",
+        "220",
+        "stress relief oil"
+      ],
+      "hi": [
+        "रहनुमा केश तेल",
+        "नगीना रहनुमा",
+        "ठंडा तेल",
+        "दिमागी सुकून तेल",
+        "१३ जड़ी बूटी तेल",
+        "ब्राह्मी तेल",
+        "१०० मिली",
+        "२०० मिली",
+        "११०",
+        "२२०",
+        "तनाव राहत तेल"
+      ]
+    },
+    "manufacturer": {
+      "name": "Nageena Ayurvedic Pharmacy",
+      "licenseNo": "Mfg. Lic. No KB. AYU 221",
+      "address": {
+        "en": "181 Attarwala Compound, Near Apsara Talkies, Kalyan Road, Bhiwandi, Thane, Maharashtra - 421302",
+        "hi": "181 अत्तर कम्पाउण्ड, अप्सरा टॉकीज के पास, कल्याण रोड, भिवंडी, ठाणे, महाराष्ट्र - 421302"
+      },
+      "certifications": ["ISO 9001:2018 Certified"]
+    }
+  },
+  {
+    "id": "nageena-sukoon-pain-killer",
+    "slug": "nageena-sukoon-pain-killer",
+    "categoryId": "pain-relief",
+    "name": {
+      "en": "Nageena Sukoon Pain Killer",
+      "hi": "नगीना सुकून पेन किलर"
+    },
+    "subtitle": {
+      "en": "Targeted Ayurvedic Roll-On Liniment for Instant Spot Relief",
+      "hi": "त्वरित राहत हेतु आयुर्वेदिक रोल-ऑन पेन किलर"
+    },
+    "tagline": {
+      "en": "Instant Relief from Headaches, Cold & Stiffness",
+      "hi": "सिर दर्द, सर्दी-जुकाम और जकड़न से तुरंत आराम"
+    },
+    "description": {
+      "en": "Nageena Sukoon Pain Killer is a concentrated, fast-acting Ayurvedic roll-on liniment crafted for rapid localized relief. Designed for instant action on headaches, nasal and sinus congestion, stiff neck, and sudden knee or joint twinges. Pocket-sized and leak-proof for everyday convenience.",
+      "hi": "नगीना सुकून पेन किलर एक अत्यधिक असरदार त्वरित राहत देने वाला आयुर्वेदिक रोल-ऑन है। यह सिर दर्द, सर्दी-जुकाम, बंद नाक, गर्दन में खिंचाव और घुटनों व जोड़ों की टीस में तुरंत आराम पहुंचाता है। सुविधाजनक रोल-ऑन पैक कहीं भी साथ ले जाने के लिए उत्तम है।"
+    },
+    "detailedDescription": {
+      "en": "Formulated with therapeutic wintergreen oil, pure menthol crystals, and refined camphor, this quick-absorbing liniment penetrates swiftly without staining clothes. The roller ball applicator delivers controlled, mess-free application directly to pulse points, forehead, or tense muscles.",
+      "hi": "विंटरग्रीन ऑयल, शुद्ध पुदीना सत्व और कपूर के शक्तिशाली मिश्रण से बना यह उत्पाद त्वचा पर बिना चिपचिपाहट के तुरंत अवशोषित होता है। इसका रोलर बॉल बिना हाथों को गंदा किए सीधे माथे या प्रभावित अंग पर सटीक तरीके से लगाया जा सकता है।"
+    },
+    "images": {
+      "primary": "/images/products/pain-killer-rollon.jpg",
+      "showcase": "/images/banners/wellness-banner.png",
+      "additional": [
+        "/images/promotions/all-products-lineup.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "id": "sukoon-pain-killer-6ml",
+        "packSize": "6 ml",
+        "mrp": 55,
+        "availability": "in-stock"
+      }
+    ],
+    "ingredients": {
+      "en": [
+        "Pudina Satva / Menthol (Mentha arvensis)",
+        "Gandhapura Tel / Wintergreen (Gaultheria procumbens)",
+        "Kapoor / Camphor (Cinnamomum camphora)",
+        "Nilgiri Tel / Eucalyptus (Eucalyptus globulus)",
+        "Laung Tel / Clove (Syzygium aromaticum)",
+        "Special volatile liniment base"
+      ],
+      "hi": [
+        "पुदीना सत्व (Mentha arvensis)",
+        "गंधपूरा तेल (विंटरग्रीन)",
+        "कपूर (Cinnamomum camphora)",
+        "नीलगिरी तेल (यूकेलिप्टस)",
+        "लौंग तेल (Syzygium aromaticum)",
+        "विशेष वाष्पशील बेस"
+      ]
+    },
+    "directions": {
+      "en": "Gently glide the roller ball over temples, forehead, back of neck, or affected joint. For nasal congestion, apply lightly over the chest or inhale vapors from roll-on cap.",
+      "hi": "रोलर बॉल को हल्के हाथों से माथे, कनपटी, गर्दन या दर्द वाले अंग पर फिराएं। सर्दी-जुकाम में सीने पर लगाएं या इसकी भाप सूंघें।"
+    },
+    "indications": {
+      "en": [
+        "Throbbing headache & stress tension",
+        "Common cold, sneezing & nasal block",
+        "Neck strain & sudden sprains",
+        "Localized joint twinges"
+      ],
+      "hi": [
+        "तेज सिर दर्द व तनाव",
+        "सर्दी-जुकाम व बंद नाक",
+        "गर्दन में लचक व जकड़न",
+        "जोड़ों व घुटनों की अचानक टीस"
+      ]
+    },
+    "featured": true,
+    "searchKeywords": {
+      "en": [
+        "pain killer",
+        "sukoon pain killer",
+        "roll on pain relief",
+        "headache roll on",
+        "cold relief roll on",
+        "sar dard",
+        "sardi jukam",
+        "6 ml",
+        "55",
+        "nageena pain killer"
+      ],
+      "hi": [
+        "पेन किलर",
+        "सुकून पेन किलर",
+        "रोल ऑन",
+        "सिर दर्द का रोल ऑन",
+        "सर्दी जुकाम",
+        "६ मिली",
+        "५५",
+        "नगीना दर्द निवारक"
+      ]
+    },
+    "manufacturer": {
+      "name": "Nageena Ayurvedic Pharmacy",
+      "licenseNo": "Mfg. Lic. No KB. AYU 221",
+      "address": {
+        "en": "181 Attarwala Compound, Near Apsara Talkies, Kalyan Road, Bhiwandi, Thane, Maharashtra - 421302",
+        "hi": "181 अत्तर कम्पाउण्ड, अप्सरा टॉकीज के पास, कल्याण रोड, भिवंडी, ठाणे, महाराष्ट्र - 421302"
+      },
+      "certifications": ["ISO 9001:2018 Certified"]
+    }
+  }
+]
+

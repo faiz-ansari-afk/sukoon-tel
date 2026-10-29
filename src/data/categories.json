@@ -1,0 +1,91 @@
+[
+  {
+    "id": "massage-oils",
+    "slug": "massage-oils",
+    "name": {
+      "en": "Ayurvedic Massage Oils",
+      "hi": "आयुर्वेदिक मालिश एवं मसाज तेल"
+    },
+    "shortDescription": {
+      "en": "Deep-acting herbal massage formulations for body ache, knee stiffness, and joint comfort.",
+      "hi": "बदन दर्द, घुटनों की जकड़न और जोड़ों के दर्द से गहरा आराम देने वाले पारंपरिक मालिश तेल।"
+    },
+    "fullDescription": {
+      "en": "Prepared using time-tested Ayurvedic methods and natural herbs, our restorative massage oils penetrate deep to soothe sore muscles, relieve joints, and ease daily physical exhaustion.",
+      "hi": "प्राचीन आयुर्वेदिक पद्धति और शुद्ध प्राकृतिक जड़ी-बूटियों से निर्मित हमारे मालिश तेल मांसपेशियों की थकान और जोड़ों के दर्द में गहरा व असरदार आराम देते हैं।"
+    },
+    "badge": {
+      "en": "Body & Joint Relief",
+      "hi": "बदन व जोड़ों का आराम"
+    },
+    "image": "/images/banners/trio-showcase.png",
+    "displayOrder": 1
+  },
+  {
+    "id": "pain-relief",
+    "slug": "pain-relief",
+    "name": {
+      "en": "Targeted Pain Relief",
+      "hi": "त्वरित दर्द निवारक उत्पाद"
+    },
+    "shortDescription": {
+      "en": "Concentrated roll-on liniment for immediate relief from headaches, colds, and stiff neck.",
+      "hi": "सिर दर्द, सर्दी-जुकाम और गर्दन के खिंचाव में तुरंत असर करने वाले कंसंट्रेटेड रोल-ऑन उत्पाद।"
+    },
+    "fullDescription": {
+      "en": "Fast-acting topical liniments designed for rapid on-the-go relief. Features active herbal camphor and menthol for fast soothing absorption right where you need it.",
+      "hi": "त्वरित प्रभाव के लिए विशेष रूप से तैयार रोल-ऑन उत्पाद। कपूर, पुदीना सत्व और विंटरग्रीन युक्त यह फॉर्मूला तेजी से असर दिखाता है।"
+    },
+    "badge": {
+      "en": "Instant Roll-On Action",
+      "hi": "त्वरित रोल-ऑन असर"
+    },
+    "image": "/images/products/pain-killer-rollon.jpg",
+    "displayOrder": 2
+  },
+  {
+    "id": "hair-care-oils",
+    "slug": "hair-care-oils",
+    "name": {
+      "en": "Herbal Hair Care Oils",
+      "hi": "हर्बल हेयर केयर तेल"
+    },
+    "shortDescription": {
+      "en": "Nourishing red onion and black seed blend for controlling hair fall and promoting scalp health.",
+      "hi": "बालों का झड़ना रोकने और जड़ों को मजबूत बनाने हेतु लाल प्याज व कलौंजी युक्त हर्बल तेल।"
+    },
+    "fullDescription": {
+      "en": "Formulated with 10 pure botanical essential oils, tea tree, and sweet almond to protect the scalp from dandruff, reduce hair breakage, and restore natural shine.",
+      "hi": "१० प्राकृतिक जड़ी-बूटियों, टी-ट्री और बादाम के तेल से समृद्ध यह फॉर्मूलेशन डैंड्रफ खत्म कर बालों की जड़ों को मजबूती और चमक प्रदान करता है।"
+    },
+    "badge": {
+      "en": "Root Nourishment & Strength",
+      "hi": "जड़ों का पोषण व मजबूती"
+    },
+    "image": "/images/products/onion-hair-oil.jpg",
+    "displayOrder": 3
+  },
+  {
+    "id": "mind-soothing-oils",
+    "slug": "mind-soothing-oils",
+    "name": {
+      "en": "Mind & Scalp Soothing Oils",
+      "hi": "दिमागी सुकून एवं विश्रांति तेल"
+    },
+    "shortDescription": {
+      "en": "Time-honored 13-herb cooling tel designed to soothe mental fatigue, stress, and promote restful calm.",
+      "hi": "१३ असली जड़ी-बूटियों से बना ठंडा तेल जो दिमागी थकान और तनाव को दूर कर मस्तिष्क को ताजगी देता है।"
+    },
+    "fullDescription": {
+      "en": "Celebrated since 1993, this cooling formulation combines Brahmi, Amla, and Bhringraj. Especially beneficial for students, teachers, and professionals engaged in demanding mental work.",
+      "hi": "१९९३ से अत्यंत लोकप्रिय यह शीतल आयुर्वेदिक फॉर्मूला ब्राह्मी, आंवला और भृंगराज के गुणों से भरपूर है। दिमागी मेहनत करने वालों के लिए विशेष रूप से लाभकारी।"
+    },
+    "badge": {
+      "en": "Cooling Mental Freshness",
+      "hi": "दिमागी ताजगी व सुकून"
+    },
+    "image": "/images/products/rehnuma-kesh-tel.jpg",
+    "displayOrder": 4
+  }
+]
+
