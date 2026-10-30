@@ -74,8 +74,8 @@ export const AboutPage: React.FC = () => {
           </h2>
           <p className="text-sm sm:text-base text-stone-700 leading-relaxed">
             {language === 'hi'
-              ? 'नगीना आयुर्वेदिक फार्मेसी का निर्माण केंद्र १८१, अत्तर कम्पाउण्ड, अप्सरा टॉकीज के पास, कल्याण रोड, भिवंडी (ठाणे, महाराष्ट्र - ४२१३०२) में स्थित है। सन १९९३ से यह संस्थान पारंपरिक आयुर्वेदिक ग्रंथों और विधियों के अनुसार औषधीय तेलों का निर्माण कर रहा है। यह इकाई ISO 9001:2018 प्रमाणित है एवं औषधि निर्माण लाइसेंस (Mfg. Lic. No KB. AYU 221) के अंतर्गत संचालित है।'
-              : 'All products displayed on this site are manufactured by Nageena Ayurvedic Pharmacy, located at 181 Attarwala Compound, Near Apsara Talkies, Kalyan Road, Bhiwandi, Thane, Maharashtra (421302). Operating since 1993 under Manufacturing License No. KB. AYU 221, the facility is ISO 9001:2018 certified, adhering to classical Ayurvedic decoction and extraction methods.'}
+              ? 'नगीना आयुर्वेदिक फार्मेसी का निर्माण केंद्र भिवंडी (महाराष्ट्र - 421302) में स्थित है। सन १९९३ से यह संस्थान पारंपरिक आयुर्वेदिक ग्रंथों और विधियों के अनुसार औषधीय तेलों का निर्माण कर रहा है। यह इकाई ISO 9001:2018 प्रमाणित है एवं औषधि निर्माण लाइसेंस (Mfg. Lic. No KB. AYU 221) के अंतर्गत संचालित है।'
+              : 'All products displayed on this site are manufactured by Nageena Ayurvedic Pharmacy, located at Bhiwandi, Maharashtra - 421302. Operating since 1993 under Manufacturing License No. KB. AYU 221, the facility is ISO 9001:2018 certified, adhering to classical Ayurvedic decoction and extraction methods.'}
           </p>
         </div>
 

@@ -75,8 +75,8 @@ export const siteConfig: SiteConfig = {
       hi: 'नगीना आयुर्वेदिक फार्मेसी',
     },
     location: {
-      en: '181, Attarwala Compound, Near Apsara Talkies, Kalyan Road, Bhiwandi, Thane, Maharashtra - 421302',
-      hi: '181, अत्तर कम्पाउण्ड, अप्सरा टॉकीज के पास, कल्याण रोड, भिवंडी, ठाणे, महाराष्ट्र - 421302',
+      en: 'Bhiwandi, Maharashtra - 421302',
+      hi: 'भिवंडी, महाराष्ट्र - 421302',
     },
     establishedYear: 1993,
     isoCertified: 'ISO 9001:2018 Certified',
