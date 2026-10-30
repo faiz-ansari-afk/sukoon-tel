@@ -11,7 +11,6 @@ import {
   X,
   MapPin,
   ChevronDown,
-  Sparkles,
   ShieldCheck,
 } from 'lucide-react';
 import categoriesData from '../../data/categories.json';
@@ -75,13 +74,10 @@ export const Navbar: React.FC = () => {
                     <Search className="w-4 h-4 text-[#184230] shrink-0" />
                     <span className="truncate block">{t.search.inputPlaceholder}</span>
                   </div>
-                  <div className="flex items-center gap-1.5 shrink-0 ml-2">
-                    <span className="text-[10px] bg-white text-stone-500 font-mono px-1.5 py-0.5 rounded border border-stone-200">
-                      ⌘K
-                    </span>
-                    <span className="text-[11px] font-bold text-[#184230] bg-emerald-100/80 px-2 py-0.5 rounded-md flex items-center gap-1">
-                      <Sparkles className="w-3 h-3 text-amber-600 shrink-0" />
-                      <span>{language === 'hi' ? 'सर्च' : 'AI Search'}</span>
+                  <div className="shrink-0 ml-2">
+                    <span className="text-xs font-bold text-[#184230] bg-[#eef5f0] px-2.5 py-1 rounded-lg border border-[#cde0d2] flex items-center gap-1.5">
+                      <Search className="w-3.5 h-3.5 text-[#184230]" />
+                      <span>{language === 'hi' ? 'खोजें' : 'Search'}</span>
                     </span>
                   </div>
                 </button>

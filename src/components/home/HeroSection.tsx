@@ -59,8 +59,8 @@ export const HeroSection: React.FC = () => {
                     </span>
                   </div>
                   <span className="shrink-0 bg-[#184230] text-white text-xs font-bold px-3.5 py-1.5 rounded-xl group-hover:bg-[#113123] transition-colors flex items-center gap-1.5 ml-2">
-                    <Sparkles className="w-3.5 h-3.5 text-amber-300 shrink-0" />
-                    <span>{language === 'hi' ? 'सर्च' : 'AI Search'}</span>
+                    <Search className="w-3.5 h-3.5 text-emerald-200 shrink-0" />
+                    <span>{language === 'hi' ? 'खोजें' : 'Search'}</span>
                   </span>
                 </button>
               </div>
