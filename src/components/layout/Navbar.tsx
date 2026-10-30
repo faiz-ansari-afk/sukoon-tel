@@ -64,20 +64,20 @@ export const Navbar: React.FC = () => {
                 <button
                   type="button"
                   onClick={() => setSearchModalOpen(true)}
-                  className="w-full flex items-center justify-between gap-3 px-4 py-2.5 rounded-xl bg-[#faf7f0] hover:bg-[#f3ede1] border border-[#dfd4c2] text-stone-500 hover:text-stone-800 text-xs sm:text-sm transition-all shadow-xs group"
+                  className="w-full flex items-center justify-between gap-3 px-4 py-2.5 rounded-xl bg-[#faf7f0] hover:bg-[#f3ede1] border border-[#dfd4c2] text-stone-500 hover:text-stone-800 text-xs sm:text-sm transition-all shadow-xs group overflow-hidden"
                   aria-label="Open search dialog"
                 >
-                  <div className="flex items-center gap-2.5 truncate">
+                  <div className="flex items-center gap-2.5 min-w-0 flex-1">
                     <Search className="w-4 h-4 text-[#184230] shrink-0" />
-                    <span className="truncate">{t.search.inputPlaceholder}</span>
+                    <span className="truncate block">{t.search.inputPlaceholder}</span>
                   </div>
-                  <div className="flex items-center gap-1.5 shrink-0">
+                  <div className="flex items-center gap-1.5 shrink-0 ml-2">
                     <span className="text-[10px] bg-white text-stone-500 font-mono px-1.5 py-0.5 rounded border border-stone-200">
                       ⌘K
                     </span>
                     <span className="text-[11px] font-bold text-[#184230] bg-emerald-100/80 px-2 py-0.5 rounded-md flex items-center gap-1">
-                      <Sparkles className="w-3 h-3 text-amber-600" />
-                      <span>AI Search</span>
+                      <Sparkles className="w-3 h-3 text-amber-600 shrink-0" />
+                      <span>{language === 'hi' ? 'सर्च' : 'AI Search'}</span>
                     </span>
                   </div>
                 </button>

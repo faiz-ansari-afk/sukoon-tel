@@ -50,17 +50,17 @@ export const HeroSection: React.FC = () => {
                 <button
                   type="button"
                   onClick={() => setSearchOpen(true)}
-                  className="w-full sm:max-w-xl flex items-center justify-between gap-3 px-5 py-3.5 rounded-2xl bg-white border-2 border-[#184230]/25 hover:border-[#184230] shadow-md hover:shadow-lg transition-all text-left group"
+                  className="w-full sm:max-w-xl flex items-center justify-between gap-3 px-5 py-3.5 rounded-2xl bg-white border-2 border-[#184230]/25 hover:border-[#184230] shadow-md hover:shadow-lg transition-all text-left group overflow-hidden"
                 >
-                  <div className="flex items-center gap-3 text-stone-500 group-hover:text-stone-700">
-                    <Search className="w-5 h-5 text-[#184230]" />
-                    <span className="text-sm sm:text-base font-medium truncate">
+                  <div className="flex items-center gap-3 text-stone-500 group-hover:text-stone-700 min-w-0 flex-1">
+                    <Search className="w-5 h-5 text-[#184230] shrink-0" />
+                    <span className="text-sm sm:text-base font-medium truncate block">
                       {t.search.inputPlaceholder}
                     </span>
                   </div>
-                  <span className="shrink-0 bg-[#184230] text-white text-xs font-bold px-3 py-1.5 rounded-xl group-hover:bg-[#113123] transition-colors flex items-center gap-1">
-                    <Sparkles className="w-3.5 h-3.5 text-amber-300" />
-                    <span>AI Search</span>
+                  <span className="shrink-0 bg-[#184230] text-white text-xs font-bold px-3.5 py-1.5 rounded-xl group-hover:bg-[#113123] transition-colors flex items-center gap-1.5 ml-2">
+                    <Sparkles className="w-3.5 h-3.5 text-amber-300 shrink-0" />
+                    <span>{language === 'hi' ? 'सर्च' : 'AI Search'}</span>
                   </span>
                 </button>
               </div>

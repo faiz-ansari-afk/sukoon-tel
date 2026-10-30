@@ -195,7 +195,7 @@ export const translations = {
     },
     search: {
       modalTitle: 'आयुर्वेदिक उत्पाद खोजें',
-      inputPlaceholder: 'खोजें: "सुकून तेल 100ml", "बालों का तेल", "कमर दर्द", "पेन किलर"...',
+      inputPlaceholder: 'खोजें: "सुकून तेल 100ml", "बालों का तेल", "कमर दर्द"...',
       clearQuery: 'साफ करें',
       loadingModel: 'एआई बहुभाषी वेक्टर सर्च मॉडल लोड हो रहा है...',
       readyModel: 'एआई वेक्टर एवं कीवर्ड सर्च सक्रिय है',
