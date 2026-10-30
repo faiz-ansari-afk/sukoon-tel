@@ -50,7 +50,8 @@ export const siteConfig: SiteConfig = {
         en: 'Chungi No. 5, Mohalla Khurara, Near Umar Faruq Masjid, Sherkot, Bijnor, Uttar Pradesh, India',
         hi: 'चुंगी नंबर 5, मोहल्ला खुरारा, उमर फारूक मस्जिद के पास, शेरकोट, बिजनौर, उत्तर प्रदेश।',
       },
-      googleMapsSearchUrl: 'https://www.google.com/maps/search/?api=1&query=Chungi+No.+5+Mohalla+Khurara+Near+Umar+Faruq+Masjid+Sherkot+Bijnor+Uttar+Pradesh',
+      googleMapsSearchUrl: 'https://maps.app.goo.gl/GRVbp7aT82W1215XA',
+      googleMapsDirectionUrl: 'https://maps.app.goo.gl/GRVbp7aT82W1215XA',
     },
     timings: {
       en: 'Open 7 Days a Week: 9:00 AM – 9:00 PM',

@@ -19,6 +19,7 @@ export interface SiteContactConfig {
     country: LocalizedString;
     fullText: LocalizedString;
     googleMapsSearchUrl: string;
+    googleMapsDirectionUrl?: string;
   };
   timings: LocalizedString;
 }
