@@ -24,10 +24,13 @@
       "hi": "नगीना सुकून तेल पीढ़ियों से मांसपेशियों और जोड़ों के दर्द से राहत के लिए आजमाया हुआ तेल है। प्राचीन आयुर्वेदिक तर्ज पर पकाए गए इस तेल का नियमित प्रयोग मांसपेशियों में खिंचाव, कमर दर्द, घुटनों की तकलीफ और बदन की अकड़न को दूर करता है। बुजुर्गों और मेहनत-मशक्कत करने वाले लोगों के लिए यह अत्यंत लाभकारी है।"
     },
     "images": {
-      "primary": "/images/products/sukoon-oil-bottle.jpg",
+      "primary": "/images/products/sukoon-oil-200ml.png",
       "showcase": "/images/banners/trio-showcase.png",
       "ad": "/images/promotions/sukoon-back-relief.jpg",
       "additional": [
+        "/images/products/sukoon-oil-100ml.png",
+        "/images/products/sukoon-oil-50ml.png",
+        "/images/products/sukoon-oil-bottle.jpg",
         "/images/banners/pain-relief-poster.png",
         "/images/banners/wellness-banner.png"
       ]
@@ -37,19 +40,22 @@
         "id": "sukoon-oil-50ml",
         "packSize": "50 ml",
         "mrp": 85,
-        "availability": "in-stock"
+        "availability": "in-stock",
+        "image": "/images/products/sukoon-oil-50ml.png"
       },
       {
         "id": "sukoon-oil-100ml",
         "packSize": "100 ml",
         "mrp": 160,
-        "availability": "in-stock"
+        "availability": "in-stock",
+        "image": "/images/products/sukoon-oil-100ml.png"
       },
       {
         "id": "sukoon-oil-200ml",
         "packSize": "200 ml",
         "mrp": 290,
-        "availability": "in-stock"
+        "availability": "in-stock",
+        "image": "/images/products/sukoon-oil-200ml.png"
       }
     ],
     "ingredients": {
@@ -164,9 +170,10 @@
       "hi": "सल्फर युक्त लाल प्याज के अर्क और एंटी-बैक्टीरियल टी-ट्री तेल से तैयार यह तेल कमजोर बालों को जड़ों से मजबूत बनाता है। इसका नियमित प्रयोग रूसी (डैंड्रफ) को साफ करता है, बालों को समय से पहले सफेद होने से रोकता है और नए स्वस्थ बाल उगाने में सहायता करता है।"
     },
     "images": {
-      "primary": "/images/products/onion-hair-oil.jpg",
-      "showcase": "/images/promotions/all-products-lineup.jpg",
+      "primary": "/images/products/onion-hair-oil-cover.png",
+      "showcase": "/images/products/onion-hair-oil.jpg",
       "additional": [
+        "/images/promotions/all-products-lineup.jpg",
         "/images/banners/wellness-banner.png"
       ]
     },
@@ -175,7 +182,8 @@
         "id": "onion-hair-oil-200ml",
         "packSize": "200 ml",
         "mrp": 350,
-        "availability": "in-stock"
+        "availability": "in-stock",
+        "image": "/images/products/onion-hair-oil-cover.png"
       }
     ],
     "ingredients": {
@@ -279,10 +287,12 @@
       "hi": "रहनुमा केश तेल विशेष रूप से विद्यार्थियों, शिक्षकों, विचारकों और मानसिक परिश्रम करने वाले लोगों के लिए अत्यंत उपयोगी है। ब्राह्मी, आंवला, भृंगराज, शिकाकाई और रीठा का शीतल मिश्रण सिर की गरमी को शांत कर ताजगी और शांति प्रदान करता है।"
     },
     "images": {
-      "primary": "/images/products/rehnuma-kesh-tel.jpg",
-      "showcase": "/images/promotions/rehnuma-detail.jpg",
-      "ad": "/images/banners/wellness-banner.png",
+      "primary": "/images/products/rehnuma-kesh-tel-100ml.png",
+      "showcase": "/images/products/rehnuma-kesh-tel-200ml.png",
+      "ad": "/images/promotions/rehnuma-detail.jpg",
       "additional": [
+        "/images/products/rehnuma-kesh-tel.jpg",
+        "/images/banners/wellness-banner.png",
         "/images/promotions/all-products-lineup.jpg"
       ]
     },
@@ -291,13 +301,15 @@
         "id": "rehnuma-kesh-tel-100ml",
         "packSize": "100 ml",
         "mrp": 110,
-        "availability": "in-stock"
+        "availability": "in-stock",
+        "image": "/images/products/rehnuma-kesh-tel-100ml.png"
       },
       {
         "id": "rehnuma-kesh-tel-200ml",
         "packSize": "200 ml",
         "mrp": 220,
-        "availability": "in-stock"
+        "availability": "in-stock",
+        "image": "/images/products/rehnuma-kesh-tel-200ml.png"
       }
     ],
     "ingredients": {
@@ -409,9 +421,10 @@
       "hi": "विंटरग्रीन ऑयल, शुद्ध पुदीना सत्व और कपूर के शक्तिशाली मिश्रण से बना यह उत्पाद त्वचा पर बिना चिपचिपाहट के तुरंत अवशोषित होता है। इसका रोलर बॉल बिना हाथों को गंदा किए सीधे माथे या प्रभावित अंग पर सटीक तरीके से लगाया जा सकता है।"
     },
     "images": {
-      "primary": "/images/products/pain-killer-rollon.jpg",
-      "showcase": "/images/banners/wellness-banner.png",
+      "primary": "/images/products/pain-killer-packshot.png",
+      "showcase": "/images/products/pain-killer-rollon.jpg",
       "additional": [
+        "/images/banners/wellness-banner.png",
         "/images/promotions/all-products-lineup.jpg"
       ]
     },
@@ -420,7 +433,8 @@
         "id": "sukoon-pain-killer-6ml",
         "packSize": "6 ml",
         "mrp": 55,
-        "availability": "in-stock"
+        "availability": "in-stock",
+        "image": "/images/products/pain-killer-packshot.png"
       }
     ],
     "ingredients": {
@@ -495,4 +509,3 @@
     }
   }
 ]
-

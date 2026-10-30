@@ -13,6 +13,7 @@ export interface ProductVariant {
   packSize: string; // e.g. "50 ml", "100 ml", "200 ml", "6 ml"
   mrp: number; // in INR
   availability: 'in-stock' | 'enquire-availability';
+  image?: string; // variant-specific packaging image
 }
 
 export interface Product {
@@ -53,4 +54,3 @@ export interface ProductCategory {
   image: string;
   displayOrder: number;
 }
-

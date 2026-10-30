@@ -41,14 +41,28 @@ export const ProductDetailPage: React.FC = () => {
   );
 
   // Gallery state
-  const allImages = [
+  const rawImages = [
     product.images.primary,
+    ...(product.variants.map((v) => v.image)),
     product.images.showcase,
     product.images.ad,
     ...(product.images.additional || []),
-  ].filter(Boolean) as string[];
+  ];
 
-  const [activeImage, setActiveImage] = useState<string>(allImages[0] || product.images.primary);
+  const allImages: string[] = rawImages
+    .filter((img): img is string => typeof img === 'string' && img.length > 0)
+    .filter((img, index, self) => self.indexOf(img) === index);
+
+  const [activeImage, setActiveImage] = useState<string>(
+    selectedVariant.image || product.images.primary
+  );
+
+  const handleSelectVariant = (v: ProductVariant) => {
+    setSelectedVariant(v);
+    if (v.image) {
+      setActiveImage(v.image);
+    }
+  };
 
   const primaryPhone = siteConfig.contact.primaryPhone;
   const primaryPhoneFormatted = siteConfig.contact.primaryPhoneFormatted;
@@ -186,7 +200,7 @@ export const ProductDetailPage: React.FC = () => {
                       <button
                         key={v.id}
                         type="button"
-                        onClick={() => setSelectedVariant(v)}
+                        onClick={() => handleSelectVariant(v)}
                         className={`px-4 py-3 rounded-2xl border-2 text-left transition-all ${
                           isSelected
                             ? 'border-[#184230] bg-[#184230] text-white shadow-md'
@@ -351,4 +365,3 @@ export const ProductDetailPage: React.FC = () => {
     </div>
   );
 };
-

@@ -40,7 +40,7 @@
       "en": "Instant Roll-On Action",
       "hi": "त्वरित रोल-ऑन असर"
     },
-    "image": "/images/products/pain-killer-rollon.jpg",
+    "image": "/images/products/pain-killer-packshot.png",
     "displayOrder": 2
   },
   {
@@ -62,7 +62,7 @@
       "en": "Root Nourishment & Strength",
       "hi": "जड़ों का पोषण व मजबूती"
     },
-    "image": "/images/products/onion-hair-oil.jpg",
+    "image": "/images/products/onion-hair-oil-cover.png",
     "displayOrder": 3
   },
   {
@@ -84,8 +84,7 @@
       "en": "Cooling Mental Freshness",
       "hi": "दिमागी ताजगी व सुकून"
     },
-    "image": "/images/products/rehnuma-kesh-tel.jpg",
+    "image": "/images/products/rehnuma-kesh-tel-100ml.png",
     "displayOrder": 4
   }
 ]
-
