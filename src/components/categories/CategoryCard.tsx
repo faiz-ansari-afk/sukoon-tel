@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Category } from '../../types/category';
+import { Product } from '../../types/product';
 import { useLanguage } from '../../hooks/useLanguage';
 import productsData from '../../data/products.json';
 import { ArrowRight, Sparkles } from 'lucide-react';
@@ -9,15 +10,18 @@ interface CategoryCardProps {
   category: Category;
 }
 
-export const CategoryCard: React.FC<CategoryCardProps> = ({ category }) => {
-  const { language, t } = useLanguage();
+const products = productsData as Product[];
 
-  // Calculate actual product count dynamically from catalogue JSON
-  const productCount = productsData.filter((p) => p.categoryId === category.id).length;
+export const CategoryCard: React.FC<CategoryCardProps> = ({ category }) => {
+  const { language } = useLanguage();
+
+  // Directly link to the product detail page for this category
+  const product = products.find((p) => p.categoryId === category.id);
+  const targetUrl = product ? `/products/${product.slug}` : `/products`;
 
   return (
     <Link
-      to={`/category/${category.slug}`}
+      to={targetUrl}
       className="group relative flex flex-col rounded-3xl overflow-hidden bg-white border border-[#e4d9c7] shadow-sm hover:shadow-xl hover:border-[#184230]/50 transition-all duration-300 transform hover:-translate-y-1"
     >
       {/* Visual Image Header */}
@@ -38,12 +42,14 @@ export const CategoryCard: React.FC<CategoryCardProps> = ({ category }) => {
           </span>
         </div>
 
-        {/* Product Count Pill */}
-        <div className="absolute bottom-3 right-3">
-          <span className="inline-block text-xs font-extrabold px-3 py-1 rounded-full bg-white/95 text-[#184230] shadow-sm">
-            {productCount} {t.categories.productCount}
-          </span>
-        </div>
+        {/* Product Brand Tag */}
+        {product && (
+          <div className="absolute bottom-3 right-3">
+            <span className="inline-block text-xs font-extrabold px-3 py-1 rounded-full bg-white/95 text-[#184230] shadow-sm">
+              {product.name[language]}
+            </span>
+          </div>
+        )}
       </div>
 
       {/* Content Body */}
@@ -57,9 +63,9 @@ export const CategoryCard: React.FC<CategoryCardProps> = ({ category }) => {
           </p>
         </div>
 
-        {/* Footer Action */}
+        {/* Direct Product Detail Action */}
         <div className="pt-3 border-t border-[#f0e6d8] flex items-center justify-between text-xs sm:text-sm font-bold text-[#184230] group-hover:text-[#c61d23] transition-colors">
-          <span>{t.categories.viewCategory}</span>
+          <span>{language === 'hi' ? 'उत्पाद विवरण देखें' : 'View Product Details'}</span>
           <div className="w-8 h-8 rounded-full bg-[#f4ede2] group-hover:bg-[#c61d23] group-hover:text-white flex items-center justify-center transition-all">
             <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
           </div>
@@ -68,4 +74,3 @@ export const CategoryCard: React.FC<CategoryCardProps> = ({ category }) => {
     </Link>
   );
 };
-

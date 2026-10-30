@@ -14,6 +14,10 @@ import {
   ShieldCheck,
 } from 'lucide-react';
 import categoriesData from '../../data/categories.json';
+import productsData from '../../data/products.json';
+import { Product } from '../../types/product';
+
+const allProducts = productsData as Product[];
 
 export const Navbar: React.FC = () => {
   const { language, t } = useLanguage();
@@ -183,24 +187,28 @@ export const Navbar: React.FC = () => {
                       <div className="px-4 py-2 border-b border-stone-100 text-[11px] font-bold uppercase tracking-wider text-stone-500">
                         {language === 'hi' ? 'आयुर्वेदिक श्रेणियाँ' : 'Product Categories'}
                       </div>
-                      {categoriesData.map((cat) => (
-                        <Link
-                          key={cat.id}
-                          to={`/category/${cat.slug}`}
-                          onClick={() => setCategoriesDropdownOpen(false)}
-                          className="flex items-center gap-3 px-4 py-2.5 hover:bg-emerald-50 text-stone-700 hover:text-[#184230] transition-colors group"
-                        >
-                          <span className="w-2 h-2 rounded-full bg-[#184230] group-hover:scale-125 transition-transform" />
-                          <div className="flex flex-col">
-                            <span className="text-xs sm:text-sm font-semibold leading-tight">
-                              {cat.name[language]}
-                            </span>
-                            <span className="text-[10px] text-stone-400 group-hover:text-emerald-700">
-                              {cat.badge[language]}
-                            </span>
-                          </div>
-                        </Link>
-                      ))}
+                      {categoriesData.map((cat) => {
+                        const targetProduct = allProducts.find((p) => p.categoryId === cat.id);
+                        const targetUrl = targetProduct ? `/products/${targetProduct.slug}` : `/products`;
+                        return (
+                          <Link
+                            key={cat.id}
+                            to={targetUrl}
+                            onClick={() => setCategoriesDropdownOpen(false)}
+                            className="flex items-center gap-3 px-4 py-2.5 hover:bg-emerald-50 text-stone-700 hover:text-[#184230] transition-colors group"
+                          >
+                            <span className="w-2 h-2 rounded-full bg-[#184230] group-hover:scale-125 transition-transform" />
+                            <div className="flex flex-col">
+                              <span className="text-xs sm:text-sm font-semibold leading-tight">
+                                {cat.name[language]}
+                              </span>
+                              <span className="text-[10px] text-stone-400 group-hover:text-emerald-700">
+                                {cat.badge[language]}
+                              </span>
+                            </div>
+                          </Link>
+                        );
+                      })}
                       <div className="mt-1 pt-1 border-t border-stone-100 px-4 py-1.5">
                         <Link
                           to="/products"
@@ -361,16 +369,20 @@ export const Navbar: React.FC = () => {
                 <span className="text-xs font-bold text-[#184230] uppercase tracking-wide">
                   {t.nav.categories}:
                 </span>
-                {categoriesData.map((cat) => (
-                  <Link
-                    key={cat.id}
-                    to={`/category/${cat.slug}`}
-                    onClick={() => setMobileMenuOpen(false)}
-                    className="block py-1.5 text-sm font-semibold text-stone-600 hover:text-[#184230]"
-                  >
-                    • {cat.name[language]}
-                  </Link>
-                ))}
+                {categoriesData.map((cat) => {
+                  const targetProduct = allProducts.find((p) => p.categoryId === cat.id);
+                  const targetUrl = targetProduct ? `/products/${targetProduct.slug}` : `/products`;
+                  return (
+                    <Link
+                      key={cat.id}
+                      to={targetUrl}
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="block py-1.5 text-sm font-semibold text-stone-600 hover:text-[#184230]"
+                    >
+                      • {cat.name[language]}
+                    </Link>
+                  );
+                })}
               </div>
 
               <Link
