@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { useLanguage } from '../hooks/useLanguage';
+import { SEO } from '../components/shared/SEO';
 import productsData from '../data/products.json';
 import categoriesData from '../data/categories.json';
 import { Product } from '../types/product';
@@ -52,6 +53,10 @@ export const ProductsPage: React.FC = () => {
 
   return (
     <div className="bg-[#fbf9f4] min-h-screen py-10 sm:py-16">
+      <SEO
+        title="All Ayurvedic Products | Nageena Ayurvedic Agency Sherkot"
+        description="शेरकोट (बिजनौर) में सभी असली नगीना आयुर्वेदिक उत्पाद देखें — सुकून तेल, ऑनियन हेयर ऑयल, रहनुमा केश तेल व दर्द निवारक तेल। संपूर्ण एमआरपी व जानकारी।"
+      />
       <div className="container mx-auto px-4 lg:px-8">
         {/* Page Header */}
         <div className="max-w-3xl mb-10 space-y-3 text-left">

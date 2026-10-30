@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { useLanguage } from '../hooks/useLanguage';
+import { SEO } from '../components/shared/SEO';
 import categoriesData from '../data/categories.json';
 import productsData from '../data/products.json';
 import { Product } from '../types/product';
@@ -21,8 +22,12 @@ export const CategoryDetailPage: React.FC = () => {
 
   const categoryProducts = products.filter((p) => p.categoryId === category.id);
 
+  const seoTitle = `${category.name.en} | Nageena Ayurvedic Agency Sherkot`;
+  const seoDesc = `शेरकोट (बिजनौर) में ${category.name.hi} (${category.name.en}) के असली नगीना उत्पाद। प्रामाणिक एमआरपी, विवरण व उपलब्धता के लिए कॉल या व्हाट्सएप करें।`;
+
   return (
     <div className="bg-[#fbf9f4] min-h-screen py-10 sm:py-16">
+      <SEO title={seoTitle} description={seoDesc} />
       <div className="container mx-auto px-4 lg:px-8">
         {/* Breadcrumbs */}
         <nav

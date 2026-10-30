@@ -44,9 +44,13 @@ export const Navbar: React.FC = () => {
                 className="flex items-center gap-3 group focus:outline-none shrink-0"
                 aria-label="Nageena Ayurvedic Agency Home"
               >
-                <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-[#184230] to-[#0d261b] flex items-center justify-center text-white font-serif font-black text-2xl shadow-md border border-emerald-700/50 group-hover:scale-105 transition-transform">
-                  <span>N</span>
-                </div>
+                <img
+                  src="/favicon-48x48.png"
+                  alt="Nageena Ayurvedic Logo"
+                  className="w-11 h-11 rounded-xl shadow-md border border-amber-600/30 group-hover:scale-105 transition-transform object-contain bg-[#FFF9E6]"
+                  width={44}
+                  height={44}
+                />
                 <div className="flex flex-col">
                   <span className="font-black text-xl sm:text-2xl tracking-tight text-[#184230] leading-tight">
                     {language === 'hi' ? 'नगीना आयुर्वेदिक' : 'NAGEENA'}

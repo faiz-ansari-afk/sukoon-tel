@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useLanguage } from '../hooks/useLanguage';
 import { siteConfig } from '../data/site-config';
 import { createWhatsAppUrl } from '../lib/whatsapp';
+import { SEO } from '../components/shared/SEO';
 import {
   MapPin,
   Phone,
@@ -38,6 +39,10 @@ export const ContactPage: React.FC = () => {
 
   return (
     <div className="bg-[#fbf9f4] min-h-screen py-10 sm:py-16">
+      <SEO
+        title="Contact & Location | Nageena Ayurvedic Agency Sherkot"
+        description="नगीना आयुर्वेदिक एजेंसी, चुंगी नंबर 5, मोहल्ला खुर्राड़ा, शेरकोट (बिजनौर)। काउंटर उपलब्धता व उत्पाद पूछताछ के लिए सीधे कॉल या व्हाट्सएप करें: +91 94121 34692."
+      />
       <div className="container mx-auto px-4 lg:px-8 max-w-5xl">
         {/* Page Header */}
         <div className="text-center space-y-4 mb-12 sm:mb-16">

@@ -28,9 +28,13 @@ export const Footer: React.FC = () => {
           {/* Column 1: Brand & Agency Identity */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#c61d23] to-[#8e0d12] flex items-center justify-center text-white font-serif font-black text-xl shadow-md border border-red-500/30">
-                <span>N</span>
-              </div>
+              <img
+                src="/favicon-48x48.png"
+                alt="Nageena Ayurvedic Logo"
+                className="w-10 h-10 rounded-xl shadow-md border border-amber-500/40 object-contain bg-[#FFF9E6]"
+                width={40}
+                height={40}
+              />
               <div>
                 <h3 className="font-extrabold text-xl text-white tracking-tight">
                   {language === 'hi' ? 'नगीना आयुर्वेदिक एजेंसी' : 'NAGEENA'}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../hooks/useLanguage';
 import { siteConfig } from '../data/site-config';
+import { SEO } from '../components/shared/SEO';
 import { Link } from 'react-router-dom';
 import {
   ShieldCheck,
@@ -16,6 +17,10 @@ export const AboutPage: React.FC = () => {
 
   return (
     <div className="bg-[#fbf9f4] min-h-screen py-10 sm:py-16">
+      <SEO
+        title="About Us | Nageena Ayurvedic Agency Sherkot, Bijnor"
+        description="शेरकोट (बिजनौर) में नगीना आयुर्वेदिक एजेंसी का परिचय — असली नगीना आयुर्वेदिक फार्मेसी भिवंडी के उत्पादों की प्रामाणिक जानकारी व स्थानीय उपलब्धता।"
+      />
       <div className="container mx-auto px-4 lg:px-8 max-w-4xl">
         {/* Header */}
         <div className="text-center space-y-4 mb-12 sm:mb-16">

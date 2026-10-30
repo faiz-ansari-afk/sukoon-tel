@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { useLanguage } from '../hooks/useLanguage';
+import { SEO } from '../components/shared/SEO';
 import productsData from '../data/products.json';
 import categoriesData from '../data/categories.json';
 import { siteConfig } from '../data/site-config';
@@ -74,8 +75,17 @@ export const ProductDetailPage: React.FC = () => {
     language,
   });
 
+  const sizesText = product.variants.map((v) => `${v.packSize} ₹${v.mrp}`).join(', ');
+  const seoTitle = `${product.name.en} | Nageena Ayurvedic Agency Sherkot`;
+  const seoDesc = `शेरकोट (बिजनौर) में असली ${product.name.hi} (${product.name.en}) उपलब्ध है। साइज: ${sizesText}। प्रामाणिक एमआरपी व सीधी पूछताछ के लिए कॉल या व्हाट्सएप करें।`;
+
   return (
     <div className="bg-[#fbf9f4] min-h-screen py-8 sm:py-12">
+      <SEO
+        title={seoTitle}
+        description={seoDesc}
+        image={product.images.primary || '/og-image.jpg'}
+      />
       <div className="container mx-auto px-4 lg:px-8">
         {/* Breadcrumb Navigation */}
         <nav

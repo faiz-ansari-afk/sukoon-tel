@@ -21,7 +21,8 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         return saved;
       }
     }
-    return 'en';
+    // Default language MUST be Hindi ('hi')
+    return 'hi';
   });
 
   const setLanguage = (lang: Language) => {
